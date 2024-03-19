@@ -1,0 +1,106 @@
+.container-app {
+    width: 400px;
+    height: 300px;
+    padding: 16px;
+}
+
+.title {
+    margin-bottom: 24px;
+}
+
+.title h1 {
+    color: #FFF;
+    font-family: 'SF Pro Display', sans-serif;
+    font-weight: 700;
+}
+
+.input-pass {
+    width: 100%;
+    padding: 10px 16px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    background-color: #3A3A3A;
+    color: #E7E7E7;
+    font-weight: 500;
+    font-family: 'SF Pro Display';
+}
+
+.input-pass:focus {
+    outline: 1px solid rgb(218, 218, 218);
+}
+
+.option-lenght {
+    display: block;
+    margin: 16px 0;
+}
+
+.option-lenght label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #FFF;
+    padding-right: 8px;
+}
+
+span {
+    color: #88ff00;
+}
+
+.option-lenght div .input-lenght {
+    margin: 8px 0;
+    width: 100%;
+}
+
+.option-aditional {
+    width: 100%;
+    color: #FFF;
+}
+
+.option-aditional .options {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 8px;
+}
+
+.option-aditional .options .option-check {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.option-aditional .options label {
+    cursor: pointer;
+}
+
+input[type='checkbox'] {
+    border-radius: 50%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 1px solid #999;
+    width: 15px;
+    height: 15px;
+    outline: none;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+input[type="checkbox"]:checked {
+    background-color: #88ff00;
+}
+
+.btn-generate {
+    padding: 8px 16px;
+    background-color: #3A3A3A;
+    border: none;
+    color: #FFF;
+    cursor: pointer;
+    border-radius: 4px;
+    font-family: 'SF Pro Display', sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+.btn-generate:hover {
+    background-color: #1f1f1f;
+}
